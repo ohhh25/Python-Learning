@@ -1,6 +1,6 @@
 # Implementation of classic arcade game Pong
 
-from simplegui import simplegui
+import simplegui
 import random
 
 # initialize globals - pos and vel encode vertical info for paddles
@@ -25,7 +25,7 @@ paddle1_pos = [[0, PAD1_T], [8, PAD1_T], [8, PAD1_B], [0, PAD1_B]]
 paddle2_pos = [[600, PAD2_T], [592, PAD2_T], [592, PAD2_B], [600, PAD2_B]]
 ball_pos = [300, 200]
 ball_vel = [0, 0]
-vel_inc = 10
+vel_inc = 5
 paddle1_vel = 0
 paddle2_vel = 0
 gutter = True
