@@ -1,6 +1,6 @@
 # template for "Stopwatch: The Game"
 
-from simplegui import simplegui
+import simplegui
 # define global variables
 #tenths of seconds
 t = 0
