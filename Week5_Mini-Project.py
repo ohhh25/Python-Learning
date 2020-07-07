@@ -1,6 +1,6 @@
 # implementation of card game - Memory
 
-from simplegui import simplegui
+import simplegui
 import random
 card1 = 0
 card2 = 0
