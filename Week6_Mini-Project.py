@@ -1,6 +1,6 @@
 # Mini-project #6 - Blackjack
 
-from simplegui import simplegui
+import simplegui
 import random
 # load card sprite - 936x384 - source: jfitz.com
 CARD_SIZE = (72, 96)
