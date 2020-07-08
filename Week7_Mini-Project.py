@@ -1,5 +1,5 @@
 # program template for Spaceship
-from simplegui import simplegui
+import simplegui
 import math
 import random
 
